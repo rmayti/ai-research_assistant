@@ -1,0 +1,71 @@
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python virtual environments
+# ==============================
+myenv/
+venv/
+.venv/
+env/
+
+# ==============================
+# Python cache and test artifacts
+# ==============================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Frontend dependencies and builds
+# ==============================
+node_modules/
+dist/
+build/
+
+# ==============================
+# Local data
+# ==============================
+backend/memory.json
+backend/usage.json
+
+# ==============================
+# Files excluded from publication
+# ==============================
+backend/test_gemini.py
+frontend/test_gemini.py
+backend/eval_log.csv
+backend/Dockerfile
+
+# ==============================
+# Private notes
+# ==============================
+NOTES.md
+
+#other tests
+step1_simple.py
+step2_instructions.py
+step3_tool.py
+step4_structured_output.py
+step5_memory.py
+
+# ==============================
+# IDE and operating system
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log

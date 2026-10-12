@@ -1,0 +1,8 @@
+agno
+google-genai
+python-dotenv
+arxiv
+pypdf
+pydantic
+fastapi
+uvicorn[standard]
